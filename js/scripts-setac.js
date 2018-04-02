@@ -26,7 +26,7 @@ window.addEventListener('scroll', function resizeHeaderOnScroll() {
 function contagemRegressiva() {
     var YY = 2018;
     var MM = 06;
-    var DD = 20;
+    var DD = 03;
     var HH = 08;
     var MI = 00;
     var SS = 00; 
@@ -42,6 +42,22 @@ function contagemRegressiva() {
     mm = mm - (hh * 60);  
     hh = hh - (dd * 24);   
 
+    if(dd < 0) {
+	dd = 0;
+    }
+
+    if(hh < 0) {
+	hh = 0;
+    }
+
+    if(mm < 0) {
+	mm = 0;
+    }
+
+    if(ss < 0) {
+	ss = 0;
+    }
+    
     document.getElementById('cont-dias').innerHTML = dd;
     document.getElementById('cont-horas').innerHTML = hh;  
     document.getElementById('cont-minutos').innerHTML = mm;  
