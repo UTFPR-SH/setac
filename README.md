@@ -13,5 +13,5 @@ Câmpus Santa Helena.
 O repositório foi criado posteriormente a criação do site em si, portanto não é
 possível acesso à versões anteriores.
 
-Além disso, o projeto é livre e de código aberto, então se quiser contribuir
-mesmo não sendo estudante do campus, basta mandar um PR e eu estarei analisando!
+Além disso, o projeto é livre e de código aberto, portanto qualquer pessoa pode
+contribuir, independente de ser aluno do câmpus ou não.
