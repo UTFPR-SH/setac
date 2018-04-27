@@ -442,7 +442,19 @@ ul.setac-anterior li:hover a{
 	padding-right: 0;
 	margin-left: 0;
 	margin-right: 0;
+}
+
+ul.datas-importantes{
 	list-style: none;
+}
+
+ol.subm-list {
+	text-align: left;
+}
+
+ul.link-list{
+	padding-left: 30px;
+	list-style: disc;
 }
 
 .gallerie-big {
