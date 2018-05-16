@@ -17,9 +17,6 @@ window.addEventListener('scroll', function resizeHeaderOnScroll() {
                 logo.style.color = "rgba(0,132,255,1)";
             }
         }
-        if(1){
-            navbar.style.display = none;
-        }
     }
 });
 
