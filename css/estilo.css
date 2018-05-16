@@ -517,52 +517,30 @@ h2.titulo-rodape{
 	width: 80%;
 }
 
+#ant-anais1 h2, #ant-anais2 h2{
+	text-align: left;
+}
+
+.biggerPhoto {
+	display: none;
+}
+
 @media (min-width: 768px){
 	.ant-galeria > .row > div > a > img{
 		width: 100%;
 	}
+
+	.biggerPhoto {
+		display: block;
+	}
+
+
+	#ant-anais1 h2, #ant-anais2 h2 {
+		text-align: right;
+	}
 }
 
 
-
-
-/* Programação */
-
-.pg-one{
-	background-color: #fff;
-}
-
-.pg-two{
-	background-color: rgb(220, 226, 255);
-}
-
-.pg-one img, .pg-two img{
-	padding: 25px 0;
-}
-
-/* .mcbox-one, .mcbox-onei{
-	background-color: #fff;
-}
-
-.mcbox-two, .mcbox-twoi{
-	background-color: rgb(200,200,200);
-	color: #222;
-}
-
-.mcbox-one p, .mcbox-two p{
-	font-family: Arial;
-	padding: 0;
-	margin: 10px;
-}
-
-.mcbox-onei, .mcbox-twoi{
-	text-align: center;
-}
-
-.mcbox-onei img, .mcbox-twoi img{
-	padding: 13px;
-	width: 100%;
-} */
 
 
 
