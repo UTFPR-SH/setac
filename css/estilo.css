@@ -116,7 +116,7 @@ h1,h2,h3,h4{
 	font-weight: bold;
 	color: #fff;
 	background: rgba(0,132,255,1);
-	min-width: 250px;
+	min-width: 280px;
 	border-bottom: 5px solid rgba(0,82,255,1);
 	margin-bottom: 2px;
 }
