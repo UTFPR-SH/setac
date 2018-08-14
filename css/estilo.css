@@ -58,7 +58,13 @@ h1,h2,h3,h4{
 
 @media (min-width: 768px){
 	.header-bloco{
-	    top: 25vh;
+	    top: 10vh;
+	}
+}
+
+@media (min-width: 1024px){
+	.header-bloco{
+	    top: 16vh;
 	}
 }
 
@@ -66,9 +72,15 @@ h1,h2,h3,h4{
     text-align: center;
     color: #fff;
 	margin:0;
-	font-size: 4em;
+	font-size: 2em;
 	padding: 5px 0px;
     text-shadow: 0px 0px 10px #000;
+}
+
+@media (min-width: 768px) {
+	.header-bloco > .row > div > h2.header-titulo{
+		font-size: 4em;
+	}
 }
 
 .header-bloco > .row > div > p{
@@ -96,6 +108,24 @@ h1,h2,h3,h4{
 	background: rgba(106,255,0,1);
 }
 
+.header-bloco .btn-box {
+	border: 0px;
+	padding: 10px 20px;
+	border-radius: 0px;
+	transition: all 0.2s;
+	font-weight: bold;
+	color: #fff;
+	background: rgba(0,132,255,1);
+	min-width: 250px;
+	border-bottom: 5px solid rgba(0,82,255,1);
+	margin-bottom: 2px;
+}
+
+.btn-box:hover {
+	border-bottom: 5px solid rgba(106,155,0,1);
+	color: #fff;
+	background: rgba(106,255,0,1);
+}
 
 #topo-contagem{
     color: #fff;
@@ -540,8 +570,37 @@ h2.titulo-rodape{
 	}
 }
 
+.feira > h2{
+	font-size: 20px;
+}
 
+@media (min-width: 425px) {
+	.feira > h2 {
+		font-size: 30px;
+	}
+}
+	
+@media (min-width: 680px) {
+	.feira img {
+		width: 80%;
+	}
+}
 
+@media (min-width: 768px) {
+	.feira > h2 {
+		font-size: 40px;
+	}
+
+	.feira img {
+		width: 70%;
+	}
+}
+
+@media (min-width: 1024px) {
+	.feira img {
+		width: 50%;
+	}
+}
 
 
 

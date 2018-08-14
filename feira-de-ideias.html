@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+
+	<!-- Garante renderização apropriada e zoom ao toque para todos os dispositivos -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>SeTAC² - Semana Tecnológica Acadêmica de Ciência da Computação</title>
+
+	<!-- Bootstrap CSS -->
+	<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,700|Nunito:300" rel="stylesheet">
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/estilo.css" rel="stylesheet">
+</head>
+
+<body onload="contagemRegressiva()">
+	<!-- NAVBAR FIXADO AO TOPO -->
+	<nav class="navbar navbar-default navbar-fixed-top" id="nav-fixa">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Alternar navegação</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a id="logo-setac" class="navbar-brand" href="#">V SeTAC²</a>
+			</div>
+			<div id="navbar" class="navbar-collapse collapse navbar-right">
+				<ul class="nav navbar-nav">
+					<li><a href="index.html">Página Inicial</a></li>
+					<li><a href="programacao.html#topo-contagem">Programação</a></li>
+					<li><a href="https://goo.gl/forms/pduq5hFfKid3O9yx1">Inscreva-se</a></li>
+					<li><a href="index.html#chamada">Chamada de Trabalhos</a></li>
+					<li><a href="edicoes-anteriores.html#topo-contagem">Edições Anteriores</a></li>
+				</ul>
+			</div><!--/.nav-collapse -->
+		</div>
+	</nav>
+
+	<header id="topo" class="container-fluid">
+	</header>
+
+	<div class="header-bloco container">
+        <div class="row">
+            <div class="col-md-12">
+                <section style=""><img style="width:250px;" src="img/logo-fid.png"></section>
+                <h2 class="header-titulo">I Feira de Ideias - UTFPR-SH</h2>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+            <span class="col-md-12"><a href="http://bit.ly/edital-regulamento-feira" class="btn btn-box" role="button">Edital e Regulamento</a></span>
+        </div>
+        <div class="row">
+            <span class="col-md-12"><a href="feira-de-ideias.html#topo-contagem" class="btn btn-box" role="button">Programação do Evento</a></span>
+        </div>
+        <div class="row">
+            <span class="col-md-12"><a href="http://bit.ly/feira-inscricoes" class="btn btn-box" role="button">Inscreva sua idéia</a></span>
+        </div>
+    </div>
+
+	<div id="topo-contagem" class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<h2>CONTAGEM REGRESSIVA PARA V S<span style="text-transform:lowercase;">e</span>TAC²</h2>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-3 ">
+				<h2 id="cont-dias"></h2>
+				<p>dias</p>
+			</div>
+			<div class="col-md-3">
+				<h2 id="cont-horas"></h2>
+				<p>horas</p>
+			</div>
+			<div class="col-md-3">
+				<h2 id="cont-minutos"></h2>
+				<p>minutos</p>
+			</div>
+			<div class="col-md-3">
+				<h2 id="cont-segundos"></h2>
+				<p>segundos</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- CONTEÚDO DO SITE -->
+	<section class="container" id="conteudo">
+		<div class="row text-center feira">
+            <h2>I Feira de Ideias UTFPR-SH - Programação</h2>
+
+            <hr class="container">
+
+            <img src="img/feira-prog.png" alt="/">
+        </div>
+	</section>
+
+	<footer class="footer" id="rodape">
+	    <div class="container">
+	        <div class="row">
+	            <div id="ftbox1" class="col-md-9">
+	                <h2 class="titulo-rodape">Informações</h2>
+	                <p><strong>V SeTAC² - Semana Tecnológica Acadêmica de Ciência da Computação.</strong></p>
+	                <p><strong>Data:</strong> 27, 28 e 29 de Agosto de 2018.</p>
+	                <p><strong>Local:</strong> UTFPR - Campus Santa Helena</p>
+	                <p><strong>Telefone:</strong> +55 (45) 3268-8802</p>
+ 					<p><strong>Email:</strong> eventos-cc-sh@utfpr.edu.br</p>
+				</div>
+				<div id="ftbox2" class="col-md-3">
+					<section id="logo-img" class="row">
+						<img src="img/logo-c.png">
+					</section>
+				</div>
+			</div>
+	        <hr>
+			<div class="row">
+	        	<div id="ft-endereco" class="col-md-12">
+	        		<p><strong>Universidade Tecnológica Federal do Paraná - Campus Santa Helena</strong>
+            		<p>Prolongamento da Rua Cerejeira, s/n - CEP 85892-000 - Santa Helena - PR</p>
+	        	</div>
+	        </div>
+	    </div>
+	</footer>
+
+<!-- jQuery (necessario para os plugins Javascript do Bootstrap) -->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/scripts-setac.js"></script>
+</body>
+</html>
