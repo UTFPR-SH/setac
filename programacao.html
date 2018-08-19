@@ -57,14 +57,14 @@
 			<span class="col-md-12"><a href="http://bit.ly/edital-regulamento-feira" class="btn btn-box" role="button">Regulamento Feira de Ideias</a></span>
 		</div>
 		<div class="row">
-			<span class="col-md-12"><a href="feira-de-ideias.html#topo-contagem" class="btn btn-box" role="button">Programação do Evento</a></span>
+			<span class="col-md-12"><a data-toggle="modal" data-target="#feira-prog" class="btn btn-box" role="button">Programação do Evento</a></span>
 		</div>
 		<div class="row">
 			<span class="col-md-12"><a href="http://bit.ly/feira-inscricoes" class="btn btn-box" role="button">Inscreva sua idéia</a></span>
 		</div>
 	</div>
 
-	<div id="topo-contagem" class="container-fluid">
+	<div id="topo-contagem" class="container-fluid">		
 		<div class="row">	
 			<div class="col-md-12">
 				<h2>CONTAGEM REGRESSIVA PARA V S<span style="text-transform:lowercase;">e</span>TAC²</h2>
@@ -93,6 +93,12 @@
 
 	<!-- CONTEÚDO DO SITE -->
 	<section class="container" id="conteudo">
+		<div id="feira-prog" class="modal fade" role="dialog">
+			<div class="modal-dialog modal-content modal-body">
+				<img src="img/feira-prog.png">
+			</div>
+		</div>
+
 		<!-- 
 			Cabeçalho do conteúdo.
 		-->
@@ -876,7 +882,7 @@
 										</h3>
 
 										<h3 class="card-link">
-											<a data-toggle="modal" data-target="#feira-pg">Programação</a>
+											<a data-toggle="modal" data-target="#feira-prog">Programação</a>
 										</h3>
 										
 										<h3>Horário</h3> 
@@ -884,12 +890,6 @@
 
 										<h3>Local</h3>
 										<p>Auditório</p>
-
-										<div id="feira-pg" class="modal fade" role="dialog">
-											<div class="modal-dialog modal-content modal-body">
-												<img src="img/feira-prog.png">
-											</div>
-										</div>
 
 										<div id="feira-desc" class="modal fade" role="dialog">
 											<div class="modal-dialog modal-content modal-body">
