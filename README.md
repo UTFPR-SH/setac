@@ -15,3 +15,17 @@ possível acesso à versões anteriores.
 
 Além disso, o projeto é aberto a contribuições internas e externas, bastando clonar
 o repositório, enviar um Pull Request com os commits e aguardar revisão.
+
+## Versão 3.0
+
+A versão 3.0 do site da SeTAC² está em desenvolvimento, com lançamento previsto para
+agosto de 2019.
+
+### Lista de tarefas 
+
+- [ ] Elaboração do novo design
+- [ ] Implementação do novo design
+- [ ] Cadastro e gerenciamento de pessoas
+- [ ] Cadastro e gerenciamento de atividades/eventos
+- [ ] Submissão e gerenciamento de trabalhos científicos/resenhas acadêmicas
+
