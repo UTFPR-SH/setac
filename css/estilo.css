@@ -563,6 +563,16 @@ h2.titulo-rodape{
 		display: block;
 	}
 
+  #biggerPhoto2016 {
+    height: 380px;
+  }
+
+  #biggerPhoto2015 {
+    height: 410px;
+  }
+
+
+
 
 	#ant-anais1 h2, #ant-anais2 h2 {
 		text-align: right;
