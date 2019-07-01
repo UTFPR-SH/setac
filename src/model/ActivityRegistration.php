@@ -1,16 +1,20 @@
 <?php
-    class EditionRegistration {
+    class User {
         private $id
-        private $edition
+        private $activity
         private $registrationDate 
         private $checkIn
 
-        function __construct($user, $edition){
+        function __construct(){
             // perguntar se terá algum construtor
+        }
+        
+        function registration($user,$edition){
+            // perguntar sobre como esta função faz o registro do usuário na atividade
         }
 
         function checkIn(){
-            // perguntar como funciona a marcação de presença do usuário 
+        // perguntar como funciona a marcação de presença do usuário 
         }
 
         public function getId(){
@@ -19,14 +23,6 @@
 
         public function setId($id){
             $this->$id = $id
-        }
-
-        public function getEdition(){
-            return $this->$edition
-        }
-
-        public function setEdition($edition){
-            $this->$edition = $edition
         }
 
         public function getActivity(){
