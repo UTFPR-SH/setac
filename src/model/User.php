@@ -39,7 +39,7 @@
             return $this->$access
         }
 
-        public function setAcess($access){
+        public function setAccess($access){
             $this->$access = $access
         }
 
@@ -47,7 +47,7 @@
             return $this->$editions
         }
 
-        public function setAcess($editions){
+        public function setAccess($editions){
             $this->$editions = $editions
         }
 
@@ -55,7 +55,7 @@
             return $this->$activities
         }
 
-        public function setAcess($activities){
+        public function setAccess($activities){
             $this->$activities = $activities
         }
         
