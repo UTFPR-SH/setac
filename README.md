@@ -23,9 +23,14 @@ agosto de 2019.
 
 ### Lista de tarefas 
 
-- [ ] Elaboração do novo design
+- [x] Elaboração do novo design
 - [ ] Implementação do novo design
 - [ ] Cadastro e gerenciamento de pessoas
 - [ ] Cadastro e gerenciamento de atividades/eventos
 - [ ] Submissão e gerenciamento de trabalhos científicos/resenhas acadêmicas
 
+## Colaboradores
+
+- Mikael Messias - Desenvolvedor
+- Natanael Dotti - Desenvolvedor
+- Nathalie Martins - Desenvolvedora
