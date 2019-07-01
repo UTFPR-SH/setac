@@ -1,17 +1,12 @@
 <?php
-    class User {
+    class EditionRegistration {
         private $id
         private $edition
         private $registrationDate 
         private $checkIn
 
-        function __construct(){
+        function __construct($user, $edition){
             // perguntar se terá algum construtor
-        }
-        
-        
-        function EditionRegistration($user,$edition){
-            // perguntar sobre como esta função faz o registro da edição
         }
 
         function checkIn(){
