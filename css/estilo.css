@@ -23,7 +23,7 @@ h4{font-size: 1.1em;}
 
 h1,h2,h3,h4{
 	font-family: 'Oswald', sans-serif;
-    font-weight: 500;
+	font-weight: 500;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	color: #555;
@@ -33,23 +33,24 @@ h1,h2,h3,h4{
 /*********************************** CABEÇALHO, NAVBAR'S */
 #topo{
 	background: url('../img/wall.svg') no-repeat center center/cover;
-    width: 100%;
-    /* filter: blur(1px); */
-    height: 100%;
-    min-height: 100vh; /* a altura do background se adapta ao viewport do usuário */
-    position: relative;
-    text-align: center;
+	opacity: 0.85;
+	width: 100%;
+	/* filter: blur(1px); */
+	height: 100%;
+	min-height: 100vh; /* a altura do background se adapta ao viewport do usuário */
+	position: relative;
+	text-align: center;
 }
 
 .header-bloco{
-    text-align: center;
-    text-transform: uppercase;
-    width: 100%;
-    z-index: 1;
-    color: #fff;
-    position: absolute;
+	text-align: center;
+	text-transform: uppercase;
+	width: 100%;
+	z-index: 1;
+	color: #fff;
+	position: absolute;
 	top: 10vh;
-	background-color: rgba(0,0,0,0.81);
+	background-color: rgba(0,0,0,0);
 	/* border-top: 5px solid rgba(255,214,0,1);
 	border-bottom: 5px solid rgba(255,294,0,1); */
 	padding-top: 20px;
@@ -58,28 +59,28 @@ h1,h2,h3,h4{
 
 @media (min-width: 768px){
 	.header-bloco{
-	    top: 10vh;
+		top: 10vh;
 	}
 }
 
 @media (min-width: 1024px){
 	.header-bloco{
-	    top: 16vh;
+		top: 16vh;
 	}
 }
 
 .header-bloco > .row > div > h2.header-titulo{
-    text-align: center;
-    color: #fff;
+	text-align: center;
+	color: #fff;
 	margin:0;
-	font-size: 2em;
-	padding: 5px 0px;
-    text-shadow: 0px 0px 10px #000;
+	font-size: 1.4em;
+	padding: 40px;
+	text-shadow: 0px 0px 10px #000;
 }
 
 @media (min-width: 768px) {
 	.header-bloco > .row > div > h2.header-titulo{
-		font-size: 4em;
+		font-size: 2.5em;
 	}
 }
 
@@ -88,7 +89,7 @@ h1,h2,h3,h4{
 	font-size: 1.2em;
 	color: #fff;
 	font-weight: 700;
-    text-shadow: 0px 0px 10px #000;
+	text-shadow: 0px 0px 10px #000;
 }
 
 .header-bloco .btn-default{
@@ -128,16 +129,16 @@ h1,h2,h3,h4{
 }
 
 #topo-contagem{
-    color: #fff;
+	color: #fff;
 	margin-top: -3px;
 	margin-bottom: 0px;
 	background-color: rgb(0, 0, 0);
-    text-align: center;
-    text-transform: uppercase;
-    z-index: 99999999;
-    border-top: 2px solid #000;
-    width: 100%;
-    padding: 30px 20px;
+	text-align: center;
+	text-transform: uppercase;
+	z-index: 99999999;
+	border-top: 2px solid #000;
+	width: 100%;
+	padding: 30px 20px;
 }
 
 #topo-contagem .row:first-child{
@@ -190,8 +191,8 @@ h1,h2,h3,h4{
 
 @media (min-width: 768px){
 	.navbar-right .dropdown-menu {
-    	right: auto;
-    	left: auto;
+		right: auto;
+		left: auto;
 	}
 }
 
@@ -221,21 +222,21 @@ h1,h2,h3,h4{
 		background-color: rgba(0,0,0,1);
 		box-shadow: 0px 2px 2px rgba(217,175,5,0);
 	}
-
+	
 	.navbar-default .navbar-collapse, .navbar-default .navbar-form{
 		background-color: rgba(244,204,0,0);
 	}
-
+	
 	#nav-fixa .nav > li.active > a {
 		color: rgba(225,134,36,.875);
 	}
-
+	
 	#nav-fixa .nav > li > a{
 		color: rgba(255,255,255,1);
 		font-weight: 600;
 		background-color: unset;
 	}
-
+	
 	#nav-fixa .nav > li > a:hover, 
 	#nav-fixa .nav > li > a:focus{
 		color: rgba(0,114,225,1);
@@ -245,7 +246,7 @@ h1,h2,h3,h4{
 	.logo-setac{
 		color: rgba(254,204,0,1);
 	}
-
+	
 }
 
 #logo-img {
@@ -316,33 +317,33 @@ h1,h2,h3,h4{
 	.navbar-default .navbar-nav .open .dropdown-menu{
 		background-color: rgba(254,204,0,1);
 	}
-
+	
 	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
 		border-top: 0;
 		border-bottom: 0;
 		border-right: 0;
 		border-left: 0;
 	}
-
+	
 	.dropdown-menu{
 		border: 0px solid rgba(0, 0, 0, .15);
 		border-radius: 4px;
 		-webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, .175);
-				box-shadow: 0 2px 3px rgba(0, 0, 0, .175);
+		box-shadow: 0 2px 3px rgba(0, 0, 0, .175);
 	}
-
+	
 	.dropdown-menu > li{
 		color: rgba(234,118,16,0.5);
 		text-transform: uppercase;
 	}
-
+	
 	.dropdown-menu > li > a{
 		font-weight: 600;
 		color: rgba(255,255,255,1);
 		text-transform: uppercase;
 	}
-
-		
+	
+	
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover{
 		color: #fff;
 		background-color: rgba(200,160,0,1);
@@ -438,7 +439,7 @@ ul.setac-anterior li:hover a{
 	font-size: 14px;
 	vertical-align: top;
 	font-size: 18px;
-
+	
 }
 
 .container .tag-year{
@@ -558,22 +559,22 @@ h2.titulo-rodape{
 	.ant-galeria > .row > div > a > img{
 		width: 100%;
 	}
-
+	
 	.biggerPhoto {
 		display: block;
 	}
-
-  #biggerPhoto2016 {
-    height: 380px;
-  }
-
-  #biggerPhoto2015 {
-    height: 410px;
-  }
-
-
-
-
+	
+	#biggerPhoto2016 {
+		height: 380px;
+	}
+	
+	#biggerPhoto2015 {
+		height: 410px;
+	}
+	
+	
+	
+	
 	#ant-anais1 h2, #ant-anais2 h2 {
 		text-align: right;
 	}
@@ -588,7 +589,7 @@ h2.titulo-rodape{
 		font-size: 30px;
 	}
 }
-	
+
 @media (min-width: 680px) {
 	.feira img {
 		width: 80%;
@@ -599,7 +600,7 @@ h2.titulo-rodape{
 	.feira > h2 {
 		font-size: 40px;
 	}
-
+	
 	.feira img {
 		width: 70%;
 	}
