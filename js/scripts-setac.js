@@ -21,9 +21,9 @@ window.addEventListener('scroll', function resizeHeaderOnScroll() {
 });
 
 function contagemRegressiva() {
-    var YY = 2018;
-    var MM = 08;
-    var DD = 27;
+    var YY = 2019;
+    var MM = 10;
+    var DD = 21;
     var HH = 08;
     var MI = 00;
     var SS = 00; 
